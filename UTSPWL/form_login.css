@@ -1,0 +1,130 @@
+/*================= DASAR ===================*/
+* {
+  box-sizing: border-box;
+}
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f8bd8d;
+  background-image: url("anjinghome2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*================== Background ==================*/
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: 100%;
+}
+/*==================== NAV ========================*/
+ul {
+  list-style: none;
+}
+
+.nav {
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBENQ {
+  overflow: hidden;
+  color: #2a5dbb;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  top: 0;
+  margin-top: 1.7rem;
+  margin-left: 1rem;
+  position: fixed;
+}
+
+.navtombol {
+  position: fixed;
+  top: -33px;
+  right: -50%;
+  width: 85%;
+  height: 100%;
+  padding: 3rem;
+  transition: 0.4s;
+  margin-right: 8.5rem;
+}
+
+.navlisttombol {
+  display: flex;
+  flex-direction: row;
+  column-gap: 3rem;
+}
+.navitemtombol a {
+  row-gap: 3rem;
+  display: inline-block;
+  color: #103046;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.navitemtombol a:hover {
+  color: #051f94;
+  text-decoration: underline;
+}
+
+/*==================== FORM ========================*/
+fieldset {
+  width: 30rem;
+  height: 20rem;
+  margin-left: 23rem;
+  margin-top: 10rem;
+  background-color: #97a4e0c2;
+  box-shadow: 8px 5px 18px rgb(0, 0, 0);
+  border: none;
+  border-radius: 18px;
+}
+h3 {
+  text-align: center;
+  margin-top: 3rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.form{
+  margin-left: 5rem;
+}
+.input1{
+margin-left: 3.63rem;
+}
+.input3{
+  margin-left: 2.72rem;
+}
+.input4{
+  margin-left: 3.63rem;
+}
+.input5{
+  margin-left: 2.5rem;
+}
+.php{
+  margin-top: 2rem;
+}
+/*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background-color: rgb(179, 208, 245);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(62, 119, 185);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(51, 40, 151);
+}

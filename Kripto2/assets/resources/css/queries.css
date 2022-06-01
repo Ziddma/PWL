@@ -1,0 +1,596 @@
+/*Big tablet to 1200px ( width smaller than 1140px row)*/
+@media only screen and (max-width: 1200px){
+    header{
+            height: 50vh;
+        }
+    
+    nav a img{
+    margin-left: 0px; 
+}
+
+    .nav-item a{
+        width: 110px;
+    } 
+    
+     .nav-item .trade,
+    .nav-item .calc{
+        font-size: 17px;
+        width: 150px;
+        padding-left: 0 ;
+        padding-right: 0 ;
+    }
+    
+    .logo-black-sticky{
+        margin-left: -10px;
+    }
+    
+    .meet h2{
+    margin-top: 18%;
+}
+    
+    
+    .perks{
+        margin-left: 30%;
+    }
+    .perks-col{
+        margin-right: 15%;
+    }
+    
+    .card-img-top{
+    width: 200px;
+    height: 200px;
+   
+}
+    .links ,
+.support ,
+.contacts {
+    margin-top: 13%;
+}
+    
+    .cloud{
+            display: none;
+        }
+
+}
+
+ 
+    @media only screen and (max-width: 1023px) {
+        
+        header{
+            height: 50vh;
+        }
+        
+        
+        nav a img{
+     margin-left: -40px;
+}
+        
+        .nav-item a{
+          font-size: 12px;
+            margin-left: 0;
+    } 
+.nav-item .trade,
+    .nav-item .calc{
+        font-size: 12px;
+        margin-left: -15px;
+    }
+    .nav-item{
+          width: 5%;
+        padding: 0;
+        }
+        
+        nav li .btn{
+            /*width: 100%;*/
+            padding-left: 0;
+            padding-right: 0;
+            font-size: 12px;
+   
+}
+        li {
+           margin-left: 15px;
+        }
+        .cloud{
+            display: none;
+        }
+        .text-image{
+            width: 70%;
+        }
+        
+    .main-text-box h3{
+    color: #11b5d1;
+        width: 180%;
+}
+        .meet h2{
+            margin-top: 15%;
+    width: 130%; 
+}
+        .meet p{
+    text-align: justify;
+    width: 145%
+}
+        
+       .perks{
+    margin-top: 8%;
+    margin-left: 30%;
+} 
+        .perks-col{
+    
+    margin-right: 10%;
+} 
+        .perks-heading{
+    margin-left: 10%;
+    
+}
+        
+        .about-img img{
+    width: 120px;
+    height: 125px;
+    margin-top: -20px;
+    margin-left: 5px;
+}
+        
+        .about-text p {
+    font-size: 14px;
+            width: 150px;
+}
+
+.about-text h3 {
+    font-size: 22px;
+}
+      .about-text{
+    margin-left: 80px; 
+}
+        
+     .card-img-top{
+    width: 150px;
+    height: 150px;
+   
+}   
+        .request-text h2,
+        .request-text h5
+        {
+    width: 85%;
+            font-size: 130%;
+}
+        .request button{
+            font-size: 80%;
+            padding-right: 0;
+            padding-left: 0;
+        }
+        .links ,
+        .support ,
+    .contacts {
+    margin-top: 15%;
+        font-size: 80%;
+        
+}
+        footer{
+            width: 99%;
+        }
+        .contacts{
+            width: 50%;
+            
+           margin-left: 1%; 
+            padding-left: 0;
+        }
+        .logo-black{
+    width: 250px;
+    height: 250px;
+}
+        .description p{
+    width: 110%;
+    margin-top: -70px;
+            text-align: justify;
+}
+    .links h3,
+.support h3{
+    margin-left: 50%;
+    font-size: 120%;
+}   
+        
+        .contacts h3{
+    margin-left: 15%;
+            font-size: 120%;
+}
+        
+        .contacts ul{
+            padding-left: 20px;
+            padding-right: 0;
+            width: 80%;
+        }
+        
+        .sticky .logo-black-sticky {
+    display: block;
+            margin-left: -50px;
+            position: absolute;
+}
+}
+
+    
+    /* small phones to small tablets: from 481 to 767px*/
+@media only screen and (max-width: 767px){
+    .mobile-nav-icon{
+        
+        display: inline-block;
+        
+        right: 10px;
+        text-align: center;
+        width: 20%;
+        
+    } 
+    
+    .nav li{
+        display: none;
+    }
+    .nav{
+        display: block;
+        left: 40%;
+        top: 40%;
+        position: absolute;
+        
+        
+        
+    }
+    .nav-item a{
+          font-size: 16px;
+            
+    } 
+.nav-item .trade,
+    .nav-item .calc{
+        font-size: 16px;
+        margin-left: 16px;
+    
+    }
+     nav a img{
+         position: absolute;
+     top: -20px;
+    left: 10%;     
+    }
+    nav li a{
+        text-align: left;
+        margin-left: -20px;
+    }
+    
+        nav li .btn{
+            font-size: 16px;
+            text-align: left;
+            margin-left: -25px;
+    }
+    .nav-item{
+          width: 80%;
+        padding: 0;
+        text-align: left;
+        }
+    .main-text-box{
+        position: absolute;
+        top: 35%;
+        left: 5%;
+        width: 90%;
+        padding-right: 0;
+    }
+    .main-text-box h3{
+        width: 100%;
+    }
+    
+    .meet{
+    margin-top: 10%;
+        padding-top: 2%;
+    width: 95%;
+    margin-left: 2%;
+        padding-right: 0;
+}
+    .meet h2{
+        width: 100%;
+    }
+  .meet p{
+    text-align: justify;
+    width: 100%
+}  
+    
+    
+        .perks{
+    margin-top: 38%;
+    margin-left: 20%;
+} 
+    .perks-heading{
+    margin-left: 0;
+        margin-bottom: 5%;
+    
+}
+    .perks-col,
+    .perks-col1{
+        display: block;
+    }
+    .about{
+        margin-top: -5px;
+        
+    }
+    .about-img{
+       width: 5%; 
+    }
+    .about-text{
+       width: 60%; 
+        margin-left: 10%;
+    }
+   .about-img img{
+    width: 110px;
+    height: 115px;
+    margin-top: -20px;
+    margin-left: -40px;
+    float: left;  
+} 
+    .perks-col{
+    margin-right: 90%;
+}
+    
+    .about-text p {
+    width: 230px;
+        font-size: 80%;
+        margin-bottom: 0;
+}
+
+.about-text h3 {
+    width: 180px; 
+}
+    
+    .team{
+    margin-top: 20%;
+}
+
+    .team-text{
+    width: 90%;
+}
+    
+    .card-text{
+    width: 80%;
+    text-align: center;
+    margin:0 auto;
+}
+    .request-text h2{
+    width: 85%;
+            font-size: 120%;
+}
+    .request-text p{
+        font-size: 70%;
+    }
+    .request button{
+        margin-top: 5%;
+        height: 50%;
+            font-size: 60%;
+            padding-right: 0;
+            padding-left: 0;
+        }
+    
+    .logo-black{
+        margin-left: 20%;
+    }
+    .contacts h3{
+    margin-left: 100%;
+}
+    .sticky .logo-black-sticky {
+    display: block;
+    margin-left: 100px;
+    margin-top: -30px;
+        position: absolute;
+}
+    
+    .sticky  a{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+ 
+}
+    .sticky .mobile-nav-icon i{
+        color: black;
+        right: 50%;
+        top: 50%;
+    }
+   .sticky .nav-item a{
+         margin-bottom: 0;
+       padding-bottom: 0;
+            
+    } 
+    .sticky .nav{
+        margin-top: -30px;
+        background-color: rgba(255, 255, 255, 0.89);
+    
+    
+    }
+    .sticky .mobile-nav-icon{
+        
+        display: inline-block;
+        margin-top: 0px;
+        right: 10px;
+        text-align: right;
+        width: 20%;
+        z-index: 100;
+    }
+    .sticky .nav-item .trade,
+   .sticky .nav-item .calc{
+        font-size: 16px;
+        margin-left: 45px;
+    
+    }
+    
+     nav li .btn{
+            font-size: 16px;
+            text-align: left;
+            margin-left: 25px;
+         margin-top: 10px;
+    }
+    
+    nav li .btn{
+            font-size: 16px;
+            text-align: left;
+            margin-left: -28px;
+    }
+     .sticky li .btn{
+        margin-left: 15px;
+    }
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* small phones from 0 to 480 px*/
+@media only screen and (max-width: 480px){
+   
+    .meet{
+        padding-left: 0;
+    }
+    .meet h2{
+        width: 90%;
+        font-size: 140%;
+        margin-top: 35%;
+    }
+    
+    nav a img{
+         position: absolute;
+     top: 3px;
+    left: 9%;   
+        width: 110px;
+    height: 115px;
+    }
+    .nav{
+        
+    margin-left: -45px; 
+    top: 50%;
+        
+    }
+    
+    
+    .perks{
+        margin-top: 25%;
+    }
+    
+    .about-text h3 {
+    font-size: 110%;
+}
+    .perks-heading h2{
+    font-size: 130%;
+    
+}
+    .main-text-box{
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        width: 100%;
+    
+    }
+    
+    
+    .team-text h1{
+    font-size: 190%;
+}
+
+    .team-text{
+    margin-bottom: 10%;
+}
+    
+    .opening-text h2{
+        font-size: 150%;
+    }
+    
+    
+    .request-text h2{
+        width: 80%;
+        font-size: 100%;
+    }
+    
+    .request-text p{
+    width: 100%;
+}
+    
+    .request-text{
+        width: 75%;
+    }
+    .request button{
+        margin-top: 10%;
+        height: 50%;
+        width: 20%;
+            font-size: 50%;
+            padding-right: 0;
+            padding-left: 0;
+        }
+    
+    
+   
+    .sticky li .btn{
+        margin-left: 15px;
+    }
+    
+    .sticky .logo-black-sticky {
+    display: block;
+        margin-left: -50px;
+        margin-top: -10px;
+        width: 100px;
+        height: 100px;
+        z-index: 100;
+        position: absolute;
+        
+}
+    
+    .logo-black{
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
+        margin-bottom: 20px;
+    
+}
+    
+    .main-text-box{
+        position: absolute;
+        top: 45%;
+        left: 5%;
+        width: 90%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+     .nav-link{
+       
+       padding-top: 0;
+         padding-bottom: 0;
+        margin-bottom: 5px;
+       
+    }
+    
+}
+
+/*************************************
+*
+*
+*
+*/
+@media only screen and (max-height: 1373px){
+    header{ 
+    width: 100%;
+        height: 45vh;}
+    
+}
+
+@media only screen and (max-height: 1025px){
+    header{ 
+    width: 100%;
+        height: 55vh;}
+}
+@media only screen and (max-height: 900px){
+    header{ 
+    width: 100%;
+        height: 70vh;}
+}
+@media only screen and (max-height: 700px){
+    header{ 
+    width: 100%;
+        height: 85vh;}
+}
+
+@media only screen and (max-height: 569px){
+    header{ 
+    width: 100%;
+        height: 100vh;}
+}

@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
+
+body,
+html {
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+.box-signup {
+  background-color: #c7e4ff;
+  display: flex;
+  height: 730px;
+}
+.img-ilustration img {
+  position: relative;
+  left: 100px;
+  top: 230px;
+}
+.box-text {
+  display: relative;
+  position: absolute;
+  background-color: white;
+  border-start-start-radius: 20px;
+  width: 800px;
+  height: 500px;
+  left: 650px;
+  top: 5%;
+}
+#form-box {
+  background-color: white;
+  margin-top: -100px;
+  padding: 0px 100px;
+  padding-top: 130px;
+  border-end-start-radius: 20px;
+}
+.text-header h2 {
+  font-weight: 600;
+}
+.text-header {
+  margin: 50px 90px;
+  margin-bottom: 30px;
+}
+.back-button button {
+  position: absolute;
+  width: 9px 9px;
+  height: 21px;
+  left: 710px;
+  top: 30px;
+  opacity: 0%;
+}
+.back-button a {
+  position: absolute;
+  width: 9px 9px;
+  height: 21px;
+  left: 710px;
+  top: 30px;
+}
+#box-other-login {
+  display: flex;
+  position: relative;
+  margin: 40px 0px;
+  padding: 10px 20px;
+}
+.col-6 a {
+  margin-left: 50px;
+  padding: 15px;
+  border-style: groove;
+  text-decoration: none;
+  color: black;
+}
+.row p {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+.signup-btn {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding: 30px 20px;
+}
+#signup-btn {
+  width: 300px;
+}
+.login h6,
+.login h6 a {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  text-decoration: none;
+  font-weight: 550;
+}
+/* overlay */
+.container-popup.active {
+  opacity: 100%;
+  transform: translate(-50%, -50%) scale(1);
+  z-index: 1;
+  top: 50%;
+  display: absolute;
+  position: fixed;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.45);
+  border-radius: 40px;
+}
+.container-popup {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  opacity: 0%;
+  overflow: auto;
+}
+.login-form {
+  height: 550px;
+  width: 600px;
+  padding: 0 10px;
+  background-color: #c7e4ff;
+  border-radius: 40px;
+  border: none;
+}
+.card-title {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: 600;
+}
+.card-subtitle {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+.card-subtitle h4 {
+  color: #1566af;
+  font-weight: 550;
+}
+.card-body {
+  padding: 0px 70px;
+  padding-top: 50px;
+}
+form {
+  margin-top: 36px;
+}
+form .form-label {
+  font-size: 15px;
+  font-weight: 600;
+}
+.row button {
+  width: 300px;
+  padding: 10px;
+  font-weight: 600;
+}
+.belum {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.belum h6,
+.belum h6 a {
+  font-weight: 550;
+  text-decoration: none;
+}
+#login {
+  padding-top: 20px;
+}
+.form-check a,
+.form-check label {
+  font-weight: 600;
+  text-decoration: none;
+}
+.form-check a {
+  margin-left: 210px;
+}
+.close-button button {
+  position: absolute;
+  width: 38px;
+  height: 30px;
+  left: 504px;
+  top: 50px;
+  opacity: 0%;
+}
+.close-button a {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  left: 504px;
+  top: 50px;
+}
+/* End overlay login */
+/* end overlay */

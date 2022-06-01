@@ -1,0 +1,6 @@
+pertama buka form_login.php
+
+Lalu,
+LOGIN dengan
+username ADMIN
+password ADMIN
